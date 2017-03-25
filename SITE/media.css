@@ -1,0 +1,134 @@
+/* Adaptivity stuff */
+
+@media screen and (max-width: 991px){
+    .content section {
+    width: 90% !important;
+    }
+    .content2 section {
+   /* padding-right: 30%;*/
+    width: 90% !important;
+    }
+    .img-p {
+        height: 135px;
+    }
+
+    .backward {
+         left: 5px;
+    }
+
+    .content {
+    left:140%;
+    width: 96vw;
+    padding-right: 20%;
+    }
+
+     .content2 {
+    left:140%;
+    width: 96vw;
+    }
+
+    .main {
+        font-size: 18px;
+    }
+    
+    .img-an {
+        position: absolute;
+        top: -25%;
+        left: -50% !important;
+        left: 20vw !important;
+        height: 80px;
+    }
+
+     .main-wrap {
+    margin-top: calc(( 100vh - 138.6px ) / 2);
+  }
+}
+
+
+@media screen and (max-width:767px) {
+    .content section {
+        padding-right: 0;
+        width: 100% !important;
+        padding-left: 5%;
+    }
+    .content2 section {
+        padding-right: 0;
+        width: 100% !important;
+        padding-left: 5%;
+    }
+    .img-p {
+        height: 105px;
+        display: none;/*FEB*/
+    }
+    
+    .content {
+        left:135%;
+        width: 100%;
+    }
+    .content2 {
+        left:135%;
+        width: 100%;
+    }
+    
+    
+    .img-an {
+    top: -50%;
+    }
+
+    .main-wrap {
+    margin-top: calc(( 100vh - 181.5px ) / 2);
+  }
+
+
+  .content{
+    padding-right: 5% !important;
+  }
+
+  .content2{
+    padding-left: 0;
+    padding-right: 5% !important;
+  }
+}
+
+@media only screen and (max-width: 765px) {
+    .content section {
+        padding-right: 0;
+        width: 95% !important;
+        padding-left: 5%;
+    }
+    .content2 section {
+        padding-right: 0;
+        width: 95% !important;
+        padding-left: 5%;
+    }
+    .img-p {
+        height: 105px;
+        display: none;/*FEB*/
+    }
+    
+    .content {
+        left:135%;
+        width: 100%;
+    }
+    .content2 {
+        left:135%;
+        width: 100%;
+    }
+    
+    .main {
+        font-size: 24px;
+    }
+
+        
+    .img-an {
+        top: -50%;
+        position: absolute;
+        /*left: 15%;*/
+        left: 35vw !important;
+        height: 80px;
+    }
+    .menu,
+    .submens {
+        text-align: center;
+    }
+   }
